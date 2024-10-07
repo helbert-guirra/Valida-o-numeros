@@ -5,7 +5,13 @@
     font-family: sans-serif;
 }
 
-body {
+h1 {
+    background-color: #da6e17;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
 }
 
 .container {
@@ -15,18 +21,19 @@ body {
 }
 
 form {
-    margin-top: 40px;
-}
+    margin-top: 50px;
+} 
+
 
 input, button {
     display: block;
     padding: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
     width: 100%;
 }
 
 button {
-    background-color: #2ecc71;
+    background-color: cornflowerblue;
     border: none;
     text-transform: uppercase;
     color: #fff;
@@ -34,10 +41,11 @@ button {
     font-size: 18px;
     font-style: italic;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 button:hover {
-    background-color: #27ae60;
+    background-color: rgb(72, 107, 172);
 }
 
 .success-message {
@@ -48,8 +56,8 @@ button:hover {
 }
 
 .error-message {
-    font-size: 12px;
-    padding: 8px;
+    font-size: 18px;
+    padding: 16px;
     background-color: red;
     color: #fff;
     margin-bottom: 8px;
